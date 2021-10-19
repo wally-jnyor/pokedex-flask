@@ -50,7 +50,7 @@ body {
     align-items: center;
 
     background-color: #001805;
-    animation-name: topDisplayAnimationsOFF;
+    animation-name: topDisplayAnimationsON;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -78,7 +78,7 @@ body {
     height: 25px;
     padding: 5px 10px 0px 10px;
     box-shadow: 0px 0px 6px .01rem;
-    opacity: 0;
+    opacity: 1;
     transition: .3s;
 
     display: flex;
@@ -97,7 +97,7 @@ body {
     width: 100%;
     height: 185px;
     padding-left: 20px;
-    opacity: 0;
+    opacity: 1;
     transition: .3s;
     /*font-size: .3em;*/
     display: flex;
@@ -224,7 +224,7 @@ body {
     margin: 8px 0px 0px 1px;
 
     background: radial-gradient(#6bbd76 .1%, #1e9441 40%);
-    animation-name: LedsAnimationOff;
+    animation-name: LedsAnimationsOn;
     animation-duration: .2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -257,7 +257,7 @@ body {
     grid-row: 8 / 8;
 
     background: radial-gradient(#81afbb 1%, #156e85 70%);
-    animation-name: LenteAnimationOff;
+    animation-name: LenteAnimationsOn;
     animation-duration: .3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -316,7 +316,7 @@ body {
     background-image: url('/static/assets/pokeBG1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -9000px;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
@@ -327,7 +327,7 @@ body {
     width: 100%;
     height: 100%;
     transition: .5s;
-    opacity: 0;
+    opacity: 1;
 
     display: flex;
     flex-direction: column;

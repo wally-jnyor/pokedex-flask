@@ -17,7 +17,7 @@ let navBarDisplay = document.querySelector('.navbar');
 // bottom display and Form Input search pokemon ON/OFF
 let displayPokedex = document.querySelector('.display-pokedex');
 let pokeFormDisplay = document.querySelector('.pokeform');
-visibilidade = true;
+visibilidade = false;
 
 StartPokedex.addEventListener('click', () => {
     if(visibilidade) {
@@ -29,9 +29,9 @@ StartPokedex.addEventListener('click', () => {
         // data container
         InfosPokemon.style.opacity = '1';
         //left pokedex leds
-        LedsAnimations1.style.animationName = 'LedsAnimationsOn';
-        LedsAnimations2.style.animationName = 'LedsAnimationsOn';
-        LenteAnimations.style.animationName = 'LenteAnimationsOn';
+        LedsAnimations1.style.animationName = 'LedsAnimationON';
+        LedsAnimations2.style.animationName = 'LedsAnimationON';
+        LenteAnimations.style.animationName = 'LenteAnimationON';
         // bottom display pokedex
         displayPokedex.style.backgroundPosition = 'center';
         pokeFormDisplay.style.opacity = '1';
