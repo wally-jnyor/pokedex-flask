@@ -1,15 +1,2 @@
 backports.entry-points-selectable==1.1.0
-bcrypt==3.1.7
-blinker==1.4
-certifi==2020.6.20
-chardet==4.0.0
-click==7.1.2
-colorama==0.4.4
-cryptography==3.3.2
-dbus-python==1.2.16
-distlib==0.3.3
-distro==1.5.0
-duplicity==0.8.20
-fasteners==0.14.1
-filelock==3.3.1
 Flask==1.1.2
